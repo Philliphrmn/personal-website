@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Phillip Herrmann — Business Student, Consultant, Athlete. Based in Vienna, Austria." />
+    <meta property="og:title" content="Phillip Herrmann" />
+    <meta property="og:description" content="Business Student · Consultant · Athlete. Studying at WU Vienna, heading Business Development at Uniforce Consulting." />
+    <meta property="og:image" content="/phillip.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Phillip Herrmann" />
+    <meta name="twitter:description" content="Business Student · Consultant · Athlete. Based in Vienna, Austria." />
+    <meta name="twitter:image" content="/phillip.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>Phillip Herrmann</title>
+  </head>
+  <body>
+    <script>
+      (function() {
+        var saved = localStorage.getItem('theme');
+        var theme = saved === 'dark' || saved === 'light'
+          ? saved
+          : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        if (theme === 'dark') document.documentElement.classList.add('dark');
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
